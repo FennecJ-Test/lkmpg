@@ -11,8 +11,6 @@ if [ $? -ne 0 ]; then
     fi
 fi
 
-set -x
-
 for file in ${SOURCES};
 do
     $CLANG_FORMAT ${file} > expected-format
