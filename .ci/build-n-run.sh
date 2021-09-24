@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#
 function build_example()
 {   
     make -C examples || exit 1
